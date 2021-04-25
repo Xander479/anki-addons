@@ -13,7 +13,7 @@ def remove_leeches() -> None:
             card.note().delTag("leech")
             card.note().flush()
             card.flush()
-            showInfo("Finished removing leeches.")
+        showInfo("Finished removing leeches.")
 
 
 action = QAction("Remove leeches", mw)
